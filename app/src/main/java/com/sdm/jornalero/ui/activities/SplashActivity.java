@@ -36,32 +36,15 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        final SplashActivity activity = this;
         Animation animacionSplash = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.zoom);
         animacionSplash.setAnimationListener(new Animation.AnimationListener() {
             @Override public void onAnimationStart(Animation animation) {}
             @Override public void onAnimationEnd(Animation animation) {
-                activity.startApplication();
+                SplashActivity.this.startApplication();
             }
             @Override public void onAnimationRepeat(Animation animation){}});
         this.logo.startAnimation(animacionSplash);
 
-    }
-
-    public boolean hasPermissions(String[] permisionArray){
-        boolean validatedPermissions = true;
-        for ( String permission : permisionArray) { if(!this.hasPermission(permission)){ validatedPermissions = false; } }
-        return validatedPermissions;
-    }
-    public boolean hasPermission(String permision) {
-        if (Build.VERSION.SDK_INT < 23) { return true; }
-        return PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(this, permision);
-    }
-
-    public void askPermissions(String[] permisos, int requestCode) {
-        if(!this.hasPermissions(permisos)){
-            ActivityCompat.requestPermissions(this, permisos, requestCode);
-        }
     }
 
     private void startApplication(){

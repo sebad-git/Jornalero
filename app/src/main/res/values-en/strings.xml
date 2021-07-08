@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="nav_title_jobs">Jobs</string>
+    <string name="app_name">Jornalero</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+
+    <!--Jobs Tab -->
+    <string name="nav_title_jobs">Jobs</string>
+    <string name="add_job">Add Job</string>
+    <string name="load_jobs_error">An error ocurred while loading the job list.</string>
 </resources>

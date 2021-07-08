@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/navigation_home"
-        android:icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/nav_jobs"
+        android:icon="@drawable/ic_job_24dp"
         android:title="@string/nav_title_jobs" />
 
     <item

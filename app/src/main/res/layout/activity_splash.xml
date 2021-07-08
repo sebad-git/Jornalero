@@ -15,9 +15,9 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:background="@drawable/common_google_signin_btn_icon_light"
+            android:background="@drawable/logo"
             android:backgroundTintMode="add"
-            android:tint="@color/colorFont"
+            android:tint="@color/colorText"
             android:layout_width="80dp"
             android:layout_gravity="center"
             android:foregroundGravity="center"
@@ -25,10 +25,11 @@
 
         <TextView
             android:paddingTop="20dp"
+            android:textAllCaps="true"
             android:layout_width="match_parent"
             android:layout_gravity="start" android:gravity="center"
             android:textSize="40sp" app:fontFamily="@font/mulish"
-            android:textColor="@color/colorFont"
+            android:textColor="@color/colorText"
             android:text="@string/app_name"
             android:shadowColor="@android:color/black"
             android:shadowDx="2.5"
