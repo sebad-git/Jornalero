@@ -1,5 +1,6 @@
 package com.sdm.jornalero.ui.fragments;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,10 +14,13 @@ import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.sdm.jornalero.R;
 import com.sdm.jornalero.database.JornalerosDatabase;
 import com.sdm.jornalero.database.dao.JobDao;
 import com.sdm.jornalero.model.Job;
+import com.sdm.jornalero.ui.activities.EditJob;
 import com.sdm.jornalero.ui.adapters.JobListAdapter;
 
 import java.util.ArrayList;
@@ -40,6 +44,12 @@ public class JobsFragment extends Fragment {
         this.jobsDao = JornalerosDatabase.getDatabase(getActivity()).jobsDao();
         new LoadJobsTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
         this.srJobUpdate.setOnRefreshListener( () -> new LoadJobsTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR));
+
+        FloatingActionButton fab = root.findViewById(R.id.fb_add_job);
+        fab.setOnClickListener(view -> {
+            Intent intent = new Intent(getActivity(), EditJob.class);
+            getActivity().startActivity(intent);
+        });
         return root;
     }
 
@@ -54,9 +64,11 @@ public class JobsFragment extends Fragment {
                 jobs = new ArrayList<>();
                 Job job1 = new Job();
                 job1.name="Developer";
+                job1.description="Android developer";
                 jobs.add(job1);
                 Job job2 = new Job();
                 job2.name="Carpinter";
+                job2.description="Full time carpenter";
                 jobs.add(job2);
                 return true;
             }

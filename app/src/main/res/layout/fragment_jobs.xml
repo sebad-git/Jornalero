@@ -48,7 +48,7 @@
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/add_job"
+            android:id="@+id/fb_add_job"
             style="@style/AppTheme.FloatingButton"
             android:contentDescription="@string/add_job"
             app:srcCompat="@drawable/ic_add_24dp"/>

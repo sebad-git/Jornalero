@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array
+        name="jobTypes">
+        <item>@string/select</item>
+        <item>@string/full_time</item>
+        <item>@string/part_time</item>
+        <item>@string/freelance</item>
+    </array>
+
+    <array
+        name="jobLocations">
+        <item>@string/office</item>
+        <item>@string/home</item>
+    </array>
+
+</resources>

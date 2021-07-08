@@ -1,12 +1,39 @@
 <resources>
-    <string name="app_name">Jornalero</string>
 
+    <!-- Common -->
+    <string name="unexpected_error">Ocurrio un error inesperado.</string>
+    <string name="select">Seleccione...</string>
+
+    <!--Dialogs -->
+    <string name="dialog_yes">SI</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_ok">ACEPTAR</string>
+    <string name="dialog_cancel">CANCELAR</string>
+
+    <!--Main -->
+    <string name="app_name">Jornalero</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="exit">Presione atras de nuevo para salir.</string>
+    <string name="cancelled_permissions_message">La Aplicacion no puede continuar si no acepta los permisos,</string>
 
     <!--Jobs Tab -->
     <string name="nav_title_jobs">Trabajos</string>
     <string name="add_job">Agregar Trabajo</string>
     <string name="load_jobs_error">Ha ocurrido un error obteniendo la lista de trabajos.</string>
-
+    <!--Edit Job -->
+    <string name="full_time">Full Time</string>
+    <string name="part_time">Part Time</string>
+    <string name="freelance">Freelance</string>
+    <string name="office">Oficina</string>
+    <string name="home">Hogar</string>
+    <string name="save">Guardar</string>
+    <string name="job_name">Nombre</string>
+    <string name="job_description">Descripcion</string>
+    <string name="job_type">Categoria:</string>
+    <string name="hours">Horas de la Jornada:</string>
+    <string name="monthly_salary">Salario Mensual:</string>
+    <string name="job_address">Direccion de la oficina</string>
+    <string name="category_unselected">Seleccione una Categoria.</string>
+    <string name="job_saved">Guardado con exito.</string>
 </resources>

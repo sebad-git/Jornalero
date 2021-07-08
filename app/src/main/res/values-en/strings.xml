@@ -1,10 +1,40 @@
 <resources>
+
+    <!-- Common -->
+    <string name="unexpected_error">An unexpeted error ocurred.</string>
+    <string name="select">Select...</string>
+
+    <!--Dialogs -->
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">CANCEL</string>
+
+    <!--Main -->
     <string name="app_name">Jornalero</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="exit">Press back again to exit.</string>
+    <string name="cancelled_permissions_message">The app can not continue without this permissions.</string>
 
     <!--Jobs Tab -->
     <string name="nav_title_jobs">Jobs</string>
     <string name="add_job">Add Job</string>
     <string name="load_jobs_error">An error ocurred while loading the job list.</string>
+
+    <!--Edit Job -->
+    <string name="full_time">Full Time</string>
+    <string name="part_time">Part Time</string>
+    <string name="freelance">Freelance</string>
+    <string name="office">Office</string>
+    <string name="home">Home</string>
+    <string name="save">Save</string>
+    <string name="job_name">Job Name</string>
+    <string name="job_description">Job description</string>
+    <string name="job_type">Category:</string>
+    <string name="hours">Hours:</string>
+    <string name="monthly_salary">Monthly Salary:</string>
+    <string name="job_address">Job Address</string>
+    <string name="category_unselected">Select a Job Category.</string>
+    <string name="job_saved">Job saved successfully.</string>
 </resources>

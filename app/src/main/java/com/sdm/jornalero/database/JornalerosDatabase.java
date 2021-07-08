@@ -8,7 +8,11 @@ import androidx.room.RoomDatabase;
 import com.sdm.jornalero.database.dao.JobDao;
 import com.sdm.jornalero.model.Job;
 
-@Database(entities = {Job.class}, version = 1, exportSchema = false )
+@Database(entities =
+        { Job.class },
+        version = 1,
+        exportSchema = false
+)
 public abstract class JornalerosDatabase extends RoomDatabase {
 
     private static JornalerosDatabase database;

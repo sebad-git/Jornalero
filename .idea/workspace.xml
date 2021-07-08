@@ -6,12 +6,35 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.sdm" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="com.sdm." />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20ea0b2e-64d5-4989-bc9b-44b45b51d6b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/EditJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_travel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/navEditor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/navEditor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/database/JornalerosDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/database/JornalerosDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/database/dao/JobDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/database/dao/JobDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/model/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/model/Job.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/activities/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/adapters/JobListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/adapters/JobListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/dialogs/Alert.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/dialogs/Alert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/fragments/JobsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/sdm/jornalero/ui/fragments/JobsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_jobs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_jobs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_adapter_jobs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_adapter_jobs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-en/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +59,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="valueResourceFile" />
       </list>
     </option>
   </component>
@@ -45,7 +69,7 @@
   <component name="ProjectId" id="1uxxY4hfxd7tX5Knw0QpZVbkiZJ" />
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,7 +79,12 @@
     <key name="android.template.packageName">
       <recent name="com.sdm.jornalero.ui.activities" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sdm.jornalero.model" />
+      <recent name="com.sdm.jornalero.database.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\deneg\Documents\GitHub\Jornalero\app\src\main\res\drawable" />
       <recent name="C:\Users\deneg\Documents\GitHub\Jornalero\app\src\main\res\drawable-v24" />
       <recent name="C:\Users\deneg\Documents\GitHub\Clockwatcher\app\src\main\res\layout" />
       <recent name="C:\Users\deneg\Documents\GitHub\Clockwatcher\app\src\main\java\com\sdm\clockwatcher\util" />

@@ -16,12 +16,13 @@ public class JobListAdapter extends RecyclerView.Adapter<JobListAdapter.ViewHold
     private View.OnClickListener listener;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public TextView jobName, estado, fechaEstado, descCorta, ruta, ubicacion;
+        public TextView jobName, jobDescription, fechaEstado, descCorta, ruta, ubicacion;
         //ImageView imagenErrorEnvio;
 
         public ViewHolder(View view) {
             super(view);
             jobName = view.findViewById(R.id.lbl_job_name);
+            jobDescription = view.findViewById(R.id.lbl_job_description);
             /*
             estado = view.findViewById(R.id.txtStatus);
             fechaEstado = view.findViewById(R.id.txtStatusDate);
@@ -48,7 +49,8 @@ public class JobListAdapter extends RecyclerView.Adapter<JobListAdapter.ViewHold
     public void onBindViewHolder(ViewHolder holder, int position) {
         try{
             final Job job = jobs.get(position);
-            holder.jobName.setText(String.valueOf(job.name));
+            holder.jobName.setText(job.name);
+            holder.jobDescription.setText(job.description);
            /*
             holder.estado.setText(orden.getEstado());
             holder.fechaEstado.setText(DateUtil.formatDate(orden.getFechaEstado(),DateUtil.TIMEZONE,DateUtil.SLASH_DD_MM_AA_HH_MM));

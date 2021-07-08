@@ -12,7 +12,6 @@ public abstract class Alert {
 
     protected AlertDialog dialog;
 
-    /*
     public Alert(Context context, String title, String message, int icon){
         AlertDialog.Builder popupBuilder = new AlertDialog.Builder(context, R.style.AppTheme_Dialog);
         popupBuilder.setTitle(title); popupBuilder.setMessage(message);
@@ -55,5 +54,4 @@ public abstract class Alert {
     public void close() { if(this.dialog !=null){ this.dialog.dismiss(); } }
 
     public abstract void onConfim();
-    */
 }

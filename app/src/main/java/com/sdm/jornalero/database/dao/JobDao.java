@@ -14,15 +14,15 @@ public interface JobDao {
     @Query("SELECT * FROM JOBS")
     List<Job> list();
 
-    @Query("SELECT * FROM JOBS WHERE ID = :id")
+    @Query("SELECT * FROM JOBS WHERE JB_ID = :id")
     Job find(Long id);
 
     @Insert
-    void save(Job location);
+    void save(Job job);
 
     @Update
-    void update(Job location);
+    void update(Job job);
 
     @Delete
-    void delete(Job location);
+    void delete(Job job);
 }
